@@ -1,4 +1,4 @@
-## Deploying a python flask application in Azure App Service using CLI from Windows
+## Deploying a python-flask application in Azure App Service using CLI from Windows
 
 ### Pre-requisites:
 
