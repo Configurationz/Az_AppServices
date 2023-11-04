@@ -42,7 +42,7 @@ py -m venv .venv
 pip install -r requirements.txt
 ```
 
-### Now, Login into Azure CLI
+### Login into Azure CLI:
 ```
 az login
 ```
@@ -111,6 +111,7 @@ az webapp list-runtimes
   ]
 }
 ```
+
 * Let's bring up the Azure App Service with some appservice plan
 ```
 az webapp up --runtime PYTHON:3.9 --sku F1 --logs
@@ -131,7 +132,6 @@ az webapp up --runtime PYTHON:3.9 --sku F1 --logs
 ## References
 
 > _**[Deploy a Python (Django or Flask) web app to Azure App Services from Windows](https://learn.microsoft.com/en-us/azure/app-service/quickstart-python?tabs=flask%2Cwindows%2Cazure-cli%2Cazure-cli-deploy%2Cdeploy-instructions-azcli%2Cterminal-powershell%2Cdeploy-instructions-zip-azcli)**_
-
 
 > _**[Deploy the same application on Linux/MAC](https://learn.microsoft.com/en-us/azure/app-service/quickstart-python?tabs=flask%2Cmac-linux%2Cazure-cli%2Cazure-cli-deploy%2Cdeploy-instructions-azcli%2Cterminal-bash%2Cdeploy-instructions-zip-azcli)**_
 
