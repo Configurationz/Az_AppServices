@@ -22,7 +22,7 @@ git clone https://github.com/Prozects/msdocs-python-flask-webapp-quickstart.git
 cd msdocs-python-flask-webapp-quickstart
 ```
 
-3. Check if the python exists in your system, If not found in your local m/c, kindly install it from an Elevated terminal using chocolatey
+3. Check if the python already exists in your system, If not found in your local m/c, kindly install it from an Elevated terminal using chocolatey
 ```
 python --version
 ```
