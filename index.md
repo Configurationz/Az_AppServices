@@ -42,7 +42,7 @@ py -m venv .venv
 pip install -r requirements.txt
 ```
 
-## Now, Login into Azure CLI
+### Now, Login into Azure CLI
 ```
 az login
 ```
