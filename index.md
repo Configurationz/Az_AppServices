@@ -1,8 +1,12 @@
 ## Deploying a python flask application in Azure App Service using CLI from Windows
 
-* First we need a sample python project from which we can deploy to Azure App Services
-* Requested to follow the below mentioned Repository as it has been updated
+### Pre-requisites:
+
+* First of all, we need a sample python project which can be deployed to Azure App Services
+* Request you to follow the below mentioned Repository as it has been updated
 * Follow the latest and updated **_[py-flask App](https://github.com/Prozects/msdocs-python-flask-webapp-quickstart.git)_**
+
+### Configurations:
 
 1. Create a new directory from powershell C:\tmp\azureappdemo and cd into it
 ```
@@ -10,7 +14,7 @@ mkdir C:\tmp\azureappdemo
 cd C:\tmp\azureappdemo
 ```
 
-2. Now clone the code locally into your local system
+2. Now, clone the code locally into your system
 ```
 git clone https://github.com/Prozects/msdocs-python-flask-webapp-quickstart.git
 ```
@@ -18,7 +22,7 @@ git clone https://github.com/Prozects/msdocs-python-flask-webapp-quickstart.git
 cd msdocs-python-flask-webapp-quickstart
 ```
 
-3. Check if the python exists in your system, If not found in your local m/c, kindly install it from an Elevated terminal using chocolatey. 
+3. Check if the python exists in your system, If not found in your local m/c, kindly install it from an Elevated terminal using chocolatey
 ```
 python --version
 ```
@@ -114,9 +118,9 @@ az webapp up --runtime PYTHON:3.9 --sku F1 --logs
 
 > '--sku' F1=Free Plan, B1=Basic Plan
 
-> '--logs' where I want to see the logs of this application
+> '--logs' where we can see the logs of this application
 
-* If the deployment is successful, we see the following output in the terminal
+* If the deployment is successful, we get the following output in the terminal
 
 ![Preview](img/deployment.png)
 
@@ -129,6 +133,6 @@ az webapp up --runtime PYTHON:3.9 --sku F1 --logs
 > _**[Deploy a Python (Django or Flask) web app to Azure App Services from Windows](https://learn.microsoft.com/en-us/azure/app-service/quickstart-python?tabs=flask%2Cwindows%2Cazure-cli%2Cazure-cli-deploy%2Cdeploy-instructions-azcli%2Cterminal-powershell%2Cdeploy-instructions-zip-azcli)**_
 
 
-> _**[To install the same application on Linux/MAC](https://learn.microsoft.com/en-us/azure/app-service/quickstart-python?tabs=flask%2Cmac-linux%2Cazure-cli%2Cazure-cli-deploy%2Cdeploy-instructions-azcli%2Cterminal-bash%2Cdeploy-instructions-zip-azcli)**_
+> _**[Deploy the same application on Linux/MAC](https://learn.microsoft.com/en-us/azure/app-service/quickstart-python?tabs=flask%2Cmac-linux%2Cazure-cli%2Cazure-cli-deploy%2Cdeploy-instructions-azcli%2Cterminal-bash%2Cdeploy-instructions-zip-azcli)**_
 
 > _**[More 'az webapp up' cli options](https://learn.microsoft.com/en-us/cli/azure/webapp?view=azure-cli-latest#az-webapp-up)**_
