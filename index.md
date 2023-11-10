@@ -135,4 +135,4 @@ az webapp up --runtime PYTHON:3.9 --sku F1 --logs
 
 > _**[Deploy the same application on Linux/MAC](https://learn.microsoft.com/en-us/azure/app-service/quickstart-python?tabs=flask%2Cmac-linux%2Cazure-cli%2Cazure-cli-deploy%2Cdeploy-instructions-azcli%2Cterminal-bash%2Cdeploy-instructions-zip-azcli)**_
 
-> _**[More 'az webapp up' cli options](https://learn.microsoft.com/en-us/cli/azure/webapp?view=azure-cli-latest#az-webapp-up)**_
+> _**[More 'az webapp up' cli options](https://learn.microsoft.com/en-us/cli/azure/webapp?view=azure-cli-latest#az-webapp-up){:target="_blank"}**_
