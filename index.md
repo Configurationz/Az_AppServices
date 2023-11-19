@@ -125,9 +125,11 @@ az webapp up --runtime PYTHON:3.9 --sku F1 --logs
 
 ![Preview](img/deployment.png)
 
-* Navigate to the url
+* Navigate to the 'URL' highlighted in the above image
 
 ![Preview](img/AppServiceAPI.png)
+
+![](img/azure_party.gif)
 
 ## References ~ 
 
