@@ -138,4 +138,6 @@ az webapp up --runtime PYTHON:3.9 --sku F1 --logs
 
 > _**[More 'az webapp up' cli options](https://learn.microsoft.com/en-us/cli/azure/webapp?view=azure-cli-latest#az-webapp-up){:target="_blank"}**_
 
+> _**[How to install the Azure CLI](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli){:target="_blank"}**_
+
 ![](img/azure_party.gif)
